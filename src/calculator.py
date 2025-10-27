@@ -16,7 +16,6 @@ def add(a, b):
 
 def subtract(a, b):
     """Subtract b from a.
-    
     This function contains a pre-existing (ignored) linting error
     to simulate legacy code that we're not fixing yet.
 
@@ -43,6 +42,7 @@ def multiply(a, b):
     Returns:
         The product of a and b
     """
+    unused_var = "oops"  # This will trigger F841
     return a * b
 
 

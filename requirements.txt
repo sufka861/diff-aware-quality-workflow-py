@@ -15,3 +15,6 @@ flake8>=6.0.0
 
 # For generating diff-aware coverage reports
 diff-cover>=7.0.0
+
+pyyaml
+lark

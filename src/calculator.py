@@ -42,7 +42,6 @@ def multiply(a, b):
     Returns:
         The product of a and b
     """
-    unused_var = "oops"  # This will trigger F841
     return a * b
 
 
